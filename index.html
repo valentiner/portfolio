@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jane Doette Portfolio</title>
-
         <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -41,19 +40,73 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img class="img-responsive" src="images/appify.png" alt="The Intro project image">
+                    <img class="img-responsive" src="images/appify.png" alt="The Appify project image" data-toggle="modal" data-target="#Appify">
                     <h3 class="text-uppercase h3-enhanced">Appify</h3>
                     <p>https://github.com/udacity/Appify</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive" src="images/sunflower.png" alt="The Portfolio project image">
+                    <img class="img-responsive" src="images/sunflower.png" alt="The Sunflower project image" data-toggle="modal" data-target="#Sunflower">
                     <h3 class="text-uppercase h3-enhanced">Sunflower</h3>
                     <p>https://github.com/udacity/Sunflower</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive" src="images/bokeh.png" alt="Project #3 portfolio image">
+                    <img class="img-responsive" src="images/bokeh.png" alt="The Bokeh project image" data-toggle="modal" data-target="#Bokeh">
                     <h3 class="text-uppercase h3-enhanced">Bokeh</h3>
                     <p>https://github.com/udacity/Bokeh</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Appify" tabindex="-1" role="dialog" aria-labelledby="appifyModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appifyModalLabel">The Appify project Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/appify.png" alt="The Appify project image">
+                        <p>The Appify project: I got acquainted with text editor, created and edited simple HTML and CSS files to create my very first webpage! I could complete this project after reviewing Lesson 1 of the Intro to HTML &amp; CSS course</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Sunflower" tabindex="-1" role="dialog" aria-labelledby="sunflowerModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="sunflowerModalLabel">The Sunflower project Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/sunflower.png" alt="The Sunflower project image">
+                        <p>The Sunflower project: I replicated design in HTML &amp; CSS for provided PDF-file with design mockup. I have developed a responsive website that displays images, descriptions and links to each of the portfolio projects I have completed or will complete throughout the course of the Front-End Web Developer Nanodegree. I could complete this project after reviewing Lesson 2 of the Intro to HTML &amp; CSS course</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Bokeh" tabindex="-1" role="dialog" aria-labelledby="bokehModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="bokehModalLabel">The Bokeh project Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/bokeh.png" alt="The Bokeh project image">
+                        <p>The upcoming Bokeh project description: You'll demonstrate your mastery of the language's syntax through a series of challenges. Each multipart problem mimics a real-life challenge that front-end developers face. You'll be required to write clean code and to apply your knowledge of variables, objects, JSON, functions and control flow to successfully solve the challenges.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
